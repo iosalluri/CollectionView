@@ -25,7 +25,7 @@
         
        // menuItemLabel.text = @"Revanth thinetivi";
         
-        menuItemLabel.textColor = [UIColor whiteColor];
+        menuItemLabel.textColor = [UIColor blueColor];
         
         menuItemLabel.font = [UIFont fontWithName:@"HelveticaNeue" size:20];
         menuItemLabel.numberOfLines = 0;
