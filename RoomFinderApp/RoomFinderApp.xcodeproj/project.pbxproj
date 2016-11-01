@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E869A9B1D59095A004C2934 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869A9A1D59095A004C2934 /* main.m */; };
+		7E869A9E1D59095A004C2934 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869A9D1D59095A004C2934 /* AppDelegate.m */; };
+		7E869AA11D59095A004C2934 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869AA01D59095A004C2934 /* ViewController.m */; };
+		7E869AA41D59095A004C2934 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E869AA21D59095A004C2934 /* Main.storyboard */; };
+		7E869AA61D59095A004C2934 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E869AA51D59095A004C2934 /* Assets.xcassets */; };
+		7E869AA91D59095A004C2934 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E869AA71D59095A004C2934 /* LaunchScreen.storyboard */; };
+		7E869AB41D59095A004C2934 /* RoomFinderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869AB31D59095A004C2934 /* RoomFinderAppTests.m */; };
+		7E869ABF1D59095A004C2934 /* RoomFinderAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869ABE1D59095A004C2934 /* RoomFinderAppUITests.m */; };
+		7E869AD41D594973004C2934 /* RoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869AD31D594973004C2934 /* RoomTableViewCell.m */; };
+		7E869AD71D5956E4004C2934 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869AD61D5956E4004C2934 /* SectionHeaderView.m */; };
+		7E869AD91D595708004C2934 /* SectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E869AD81D595708004C2934 /* SectionHeaderView.xib */; };
+		7E869ADE1D597C98004C2934 /* CellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E869ADD1D597C98004C2934 /* CellData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E869AB01D59095A004C2934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E869A8E1D59095A004C2934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E869A951D59095A004C2934;
+			remoteInfo = RoomFinderApp;
+		};
+		7E869ABB1D59095A004C2934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E869A8E1D59095A004C2934 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E869A951D59095A004C2934;
+			remoteInfo = RoomFinderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E869A961D59095A004C2934 /* RoomFinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomFinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E869A9A1D59095A004C2934 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E869A9C1D59095A004C2934 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E869A9D1D59095A004C2934 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E869A9F1D59095A004C2934 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E869AA01D59095A004C2934 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E869AA31D59095A004C2934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E869AA51D59095A004C2934 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E869AA81D59095A004C2934 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E869AAA1D59095A004C2934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E869AAF1D59095A004C2934 /* RoomFinderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomFinderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E869AB31D59095A004C2934 /* RoomFinderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomFinderAppTests.m; sourceTree = "<group>"; };
+		7E869AB51D59095A004C2934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E869ABA1D59095A004C2934 /* RoomFinderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomFinderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E869ABE1D59095A004C2934 /* RoomFinderAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomFinderAppUITests.m; sourceTree = "<group>"; };
+		7E869AC01D59095A004C2934 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E869AD21D594973004C2934 /* RoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomTableViewCell.h; sourceTree = "<group>"; };
+		7E869AD31D594973004C2934 /* RoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomTableViewCell.m; sourceTree = "<group>"; };
+		7E869AD51D5956E4004C2934 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		7E869AD61D5956E4004C2934 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
+		7E869AD81D595708004C2934 /* SectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderView.xib; sourceTree = "<group>"; };
+		7E869ADC1D597C98004C2934 /* CellData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellData.h; sourceTree = "<group>"; };
+		7E869ADD1D597C98004C2934 /* CellData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E869A931D59095A004C2934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AAC1D59095A004C2934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AB71D59095A004C2934 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E869A8D1D59095A004C2934 = {
+			isa = PBXGroup;
+			children = (
+				7E869A981D59095A004C2934 /* RoomFinderApp */,
+				7E869AB21D59095A004C2934 /* RoomFinderAppTests */,
+				7E869ABD1D59095A004C2934 /* RoomFinderAppUITests */,
+				7E869A971D59095A004C2934 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E869A971D59095A004C2934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E869A961D59095A004C2934 /* RoomFinderApp.app */,
+				7E869AAF1D59095A004C2934 /* RoomFinderAppTests.xctest */,
+				7E869ABA1D59095A004C2934 /* RoomFinderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E869A981D59095A004C2934 /* RoomFinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				7E869A9C1D59095A004C2934 /* AppDelegate.h */,
+				7E869A9D1D59095A004C2934 /* AppDelegate.m */,
+				7E869ADF1D597CC4004C2934 /* Model */,
+				7E869ADA1D597BEA004C2934 /* View */,
+				7E869ADB1D597C43004C2934 /* Controller */,
+				7E869AA21D59095A004C2934 /* Main.storyboard */,
+				7E869AA51D59095A004C2934 /* Assets.xcassets */,
+				7E869AA71D59095A004C2934 /* LaunchScreen.storyboard */,
+				7E869AAA1D59095A004C2934 /* Info.plist */,
+				7E869A991D59095A004C2934 /* Supporting Files */,
+			);
+			path = RoomFinderApp;
+			sourceTree = "<group>";
+		};
+		7E869A991D59095A004C2934 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E869A9A1D59095A004C2934 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E869AB21D59095A004C2934 /* RoomFinderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E869AB31D59095A004C2934 /* RoomFinderAppTests.m */,
+				7E869AB51D59095A004C2934 /* Info.plist */,
+			);
+			path = RoomFinderAppTests;
+			sourceTree = "<group>";
+		};
+		7E869ABD1D59095A004C2934 /* RoomFinderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E869ABE1D59095A004C2934 /* RoomFinderAppUITests.m */,
+				7E869AC01D59095A004C2934 /* Info.plist */,
+			);
+			path = RoomFinderAppUITests;
+			sourceTree = "<group>";
+		};
+		7E869ADA1D597BEA004C2934 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E869AD21D594973004C2934 /* RoomTableViewCell.h */,
+				7E869AD31D594973004C2934 /* RoomTableViewCell.m */,
+				7E869AD51D5956E4004C2934 /* SectionHeaderView.h */,
+				7E869AD61D5956E4004C2934 /* SectionHeaderView.m */,
+				7E869AD81D595708004C2934 /* SectionHeaderView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7E869ADB1D597C43004C2934 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E869A9F1D59095A004C2934 /* ViewController.h */,
+				7E869AA01D59095A004C2934 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7E869ADF1D597CC4004C2934 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E869ADC1D597C98004C2934 /* CellData.h */,
+				7E869ADD1D597C98004C2934 /* CellData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E869A951D59095A004C2934 /* RoomFinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E869AC31D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderApp" */;
+			buildPhases = (
+				7E869A921D59095A004C2934 /* Sources */,
+				7E869A931D59095A004C2934 /* Frameworks */,
+				7E869A941D59095A004C2934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomFinderApp;
+			productName = RoomFinderApp;
+			productReference = 7E869A961D59095A004C2934 /* RoomFinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E869AAE1D59095A004C2934 /* RoomFinderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E869AC61D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderAppTests" */;
+			buildPhases = (
+				7E869AAB1D59095A004C2934 /* Sources */,
+				7E869AAC1D59095A004C2934 /* Frameworks */,
+				7E869AAD1D59095A004C2934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E869AB11D59095A004C2934 /* PBXTargetDependency */,
+			);
+			name = RoomFinderAppTests;
+			productName = RoomFinderAppTests;
+			productReference = 7E869AAF1D59095A004C2934 /* RoomFinderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E869AB91D59095A004C2934 /* RoomFinderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E869AC91D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderAppUITests" */;
+			buildPhases = (
+				7E869AB61D59095A004C2934 /* Sources */,
+				7E869AB71D59095A004C2934 /* Frameworks */,
+				7E869AB81D59095A004C2934 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E869ABC1D59095A004C2934 /* PBXTargetDependency */,
+			);
+			name = RoomFinderAppUITests;
+			productName = RoomFinderAppUITests;
+			productReference = 7E869ABA1D59095A004C2934 /* RoomFinderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E869A8E1D59095A004C2934 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = JAYANTH;
+				TargetAttributes = {
+					7E869A951D59095A004C2934 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7E869AAE1D59095A004C2934 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E869A951D59095A004C2934;
+					};
+					7E869AB91D59095A004C2934 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7E869A951D59095A004C2934;
+					};
+				};
+			};
+			buildConfigurationList = 7E869A911D59095A004C2934 /* Build configuration list for PBXProject "RoomFinderApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E869A8D1D59095A004C2934;
+			productRefGroup = 7E869A971D59095A004C2934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E869A951D59095A004C2934 /* RoomFinderApp */,
+				7E869AAE1D59095A004C2934 /* RoomFinderAppTests */,
+				7E869AB91D59095A004C2934 /* RoomFinderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E869A941D59095A004C2934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E869AA91D59095A004C2934 /* LaunchScreen.storyboard in Resources */,
+				7E869AA61D59095A004C2934 /* Assets.xcassets in Resources */,
+				7E869AA41D59095A004C2934 /* Main.storyboard in Resources */,
+				7E869AD91D595708004C2934 /* SectionHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AAD1D59095A004C2934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AB81D59095A004C2934 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E869A921D59095A004C2934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E869AA11D59095A004C2934 /* ViewController.m in Sources */,
+				7E869ADE1D597C98004C2934 /* CellData.m in Sources */,
+				7E869A9E1D59095A004C2934 /* AppDelegate.m in Sources */,
+				7E869AD41D594973004C2934 /* RoomTableViewCell.m in Sources */,
+				7E869AD71D5956E4004C2934 /* SectionHeaderView.m in Sources */,
+				7E869A9B1D59095A004C2934 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AAB1D59095A004C2934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E869AB41D59095A004C2934 /* RoomFinderAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E869AB61D59095A004C2934 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E869ABF1D59095A004C2934 /* RoomFinderAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E869AB11D59095A004C2934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E869A951D59095A004C2934 /* RoomFinderApp */;
+			targetProxy = 7E869AB01D59095A004C2934 /* PBXContainerItemProxy */;
+		};
+		7E869ABC1D59095A004C2934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E869A951D59095A004C2934 /* RoomFinderApp */;
+			targetProxy = 7E869ABB1D59095A004C2934 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E869AA21D59095A004C2934 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E869AA31D59095A004C2934 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E869AA71D59095A004C2934 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E869AA81D59095A004C2934 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E869AC11D59095A004C2934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E869AC21D59095A004C2934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E869AC41D59095A004C2934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomFinderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7E869AC51D59095A004C2934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoomFinderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7E869AC71D59095A004C2934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomFinderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomFinderApp.app/RoomFinderApp";
+			};
+			name = Debug;
+		};
+		7E869AC81D59095A004C2934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RoomFinderAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomFinderApp.app/RoomFinderApp";
+			};
+			name = Release;
+		};
+		7E869ACA1D59095A004C2934 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomFinderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomFinderApp;
+			};
+			name = Debug;
+		};
+		7E869ACB1D59095A004C2934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RoomFinderAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanth.interview.RoomFinderAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RoomFinderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E869A911D59095A004C2934 /* Build configuration list for PBXProject "RoomFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E869AC11D59095A004C2934 /* Debug */,
+				7E869AC21D59095A004C2934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E869AC31D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E869AC41D59095A004C2934 /* Debug */,
+				7E869AC51D59095A004C2934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E869AC61D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E869AC71D59095A004C2934 /* Debug */,
+				7E869AC81D59095A004C2934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E869AC91D59095A004C2934 /* Build configuration list for PBXNativeTarget "RoomFinderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E869ACA1D59095A004C2934 /* Debug */,
+				7E869ACB1D59095A004C2934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E869A8E1D59095A004C2934 /* Project object */;
+}

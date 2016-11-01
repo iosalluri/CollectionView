@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7EFA9A511DC258F00084D198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9A501DC258F00084D198 /* main.m */; };
+		7EFA9A541DC258F00084D198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9A531DC258F00084D198 /* AppDelegate.m */; };
+		7EFA9A571DC258F00084D198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9A561DC258F00084D198 /* ViewController.m */; };
+		7EFA9A5A1DC258F00084D198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9A581DC258F00084D198 /* Main.storyboard */; };
+		7EFA9A5C1DC258F00084D198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9A5B1DC258F00084D198 /* Assets.xcassets */; };
+		7EFA9A5F1DC258F00084D198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9A5D1DC258F00084D198 /* LaunchScreen.storyboard */; };
+		7EFA9A6A1DC258F10084D198 /* Button_Project_FlurryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9A691DC258F10084D198 /* Button_Project_FlurryTests.m */; };
+		7EFA9A751DC258F10084D198 /* Button_Project_FlurryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFA9A741DC258F10084D198 /* Button_Project_FlurryUITests.m */; };
+		7EFA9A841DC259F00084D198 /* Flurry in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9A821DC259F00084D198 /* Flurry */; };
+		7EFA9A851DC259F00084D198 /* FlurryAds in Resources */ = {isa = PBXBuildFile; fileRef = 7EFA9A831DC259F00084D198 /* FlurryAds */; };
+		7EFA9A881DC25A000084D198 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A871DC25A000084D198 /* SystemConfiguration.framework */; };
+		7EFA9A8A1DC25A120084D198 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A891DC25A120084D198 /* Security.framework */; };
+		7EFA9A8C1DC25A270084D198 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A8B1DC25A270084D198 /* libz.1.tbd */; };
+		7EFA9A8E1DC25A490084D198 /* libFlurry_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A8D1DC25A490084D198 /* libFlurry_7.8.0.a */; };
+		7EFA9A901DC25B160084D198 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A8F1DC25B160084D198 /* CFNetwork.framework */; };
+		7EFA9A921DC25CDE0084D198 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A911DC25CDE0084D198 /* AdSupport.framework */; };
+		7EFA9A941DC25D0C0084D198 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EFA9A931DC25D0C0084D198 /* iAd.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EFA9A661DC258F10084D198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFA9A441DC258F00084D198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFA9A4B1DC258F00084D198;
+			remoteInfo = "Button Project Flurry";
+		};
+		7EFA9A711DC258F10084D198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EFA9A441DC258F00084D198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EFA9A4B1DC258F00084D198;
+			remoteInfo = "Button Project Flurry";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7EFA9A4C1DC258F00084D198 /* Button Project Flurry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button Project Flurry.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFA9A501DC258F00084D198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EFA9A521DC258F00084D198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7EFA9A531DC258F00084D198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7EFA9A551DC258F00084D198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7EFA9A561DC258F00084D198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7EFA9A591DC258F00084D198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EFA9A5B1DC258F00084D198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EFA9A5E1DC258F00084D198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EFA9A601DC258F00084D198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFA9A651DC258F10084D198 /* Button Project FlurryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button Project FlurryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFA9A691DC258F10084D198 /* Button_Project_FlurryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_Project_FlurryTests.m; sourceTree = "<group>"; };
+		7EFA9A6B1DC258F10084D198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFA9A701DC258F10084D198 /* Button Project FlurryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button Project FlurryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EFA9A741DC258F10084D198 /* Button_Project_FlurryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_Project_FlurryUITests.m; sourceTree = "<group>"; };
+		7EFA9A761DC258F10084D198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EFA9A821DC259F00084D198 /* Flurry */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Flurry; path = "../../../../../Desktop/Flurry iPhone SDK viPhone 7.8.0/Flurry-iOS-7.8.0/Flurry"; sourceTree = "<group>"; };
+		7EFA9A831DC259F00084D198 /* FlurryAds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FlurryAds; path = "../../../../../Desktop/Flurry iPhone SDK viPhone 7.8.0/Flurry-iOS-7.8.0/FlurryAds"; sourceTree = "<group>"; };
+		7EFA9A871DC25A000084D198 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7EFA9A891DC25A120084D198 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7EFA9A8B1DC25A270084D198 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		7EFA9A8D1DC25A490084D198 /* libFlurry_7.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_7.8.0.a; path = "../../../../Desktop/Flurry iPhone SDK viPhone 7.8.0/Flurry-iOS-7.8.0/Flurry/libFlurry_7.8.0.a"; sourceTree = "<group>"; };
+		7EFA9A8F1DC25B160084D198 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7EFA9A911DC25CDE0084D198 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		7EFA9A931DC25D0C0084D198 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EFA9A491DC258F00084D198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFA9A941DC25D0C0084D198 /* iAd.framework in Frameworks */,
+				7EFA9A921DC25CDE0084D198 /* AdSupport.framework in Frameworks */,
+				7EFA9A901DC25B160084D198 /* CFNetwork.framework in Frameworks */,
+				7EFA9A8E1DC25A490084D198 /* libFlurry_7.8.0.a in Frameworks */,
+				7EFA9A8C1DC25A270084D198 /* libz.1.tbd in Frameworks */,
+				7EFA9A8A1DC25A120084D198 /* Security.framework in Frameworks */,
+				7EFA9A881DC25A000084D198 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A621DC258F10084D198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A6D1DC258F10084D198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7EFA9A431DC258F00084D198 = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A4E1DC258F00084D198 /* Button Project Flurry */,
+				7EFA9A681DC258F10084D198 /* Button Project FlurryTests */,
+				7EFA9A731DC258F10084D198 /* Button Project FlurryUITests */,
+				7EFA9A4D1DC258F00084D198 /* Products */,
+				7EFA9A861DC259FF0084D198 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7EFA9A4D1DC258F00084D198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A4C1DC258F00084D198 /* Button Project Flurry.app */,
+				7EFA9A651DC258F10084D198 /* Button Project FlurryTests.xctest */,
+				7EFA9A701DC258F10084D198 /* Button Project FlurryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EFA9A4E1DC258F00084D198 /* Button Project Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A821DC259F00084D198 /* Flurry */,
+				7EFA9A831DC259F00084D198 /* FlurryAds */,
+				7EFA9A521DC258F00084D198 /* AppDelegate.h */,
+				7EFA9A531DC258F00084D198 /* AppDelegate.m */,
+				7EFA9A551DC258F00084D198 /* ViewController.h */,
+				7EFA9A561DC258F00084D198 /* ViewController.m */,
+				7EFA9A581DC258F00084D198 /* Main.storyboard */,
+				7EFA9A5B1DC258F00084D198 /* Assets.xcassets */,
+				7EFA9A5D1DC258F00084D198 /* LaunchScreen.storyboard */,
+				7EFA9A601DC258F00084D198 /* Info.plist */,
+				7EFA9A4F1DC258F00084D198 /* Supporting Files */,
+			);
+			path = "Button Project Flurry";
+			sourceTree = "<group>";
+		};
+		7EFA9A4F1DC258F00084D198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A501DC258F00084D198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EFA9A681DC258F10084D198 /* Button Project FlurryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A691DC258F10084D198 /* Button_Project_FlurryTests.m */,
+				7EFA9A6B1DC258F10084D198 /* Info.plist */,
+			);
+			path = "Button Project FlurryTests";
+			sourceTree = "<group>";
+		};
+		7EFA9A731DC258F10084D198 /* Button Project FlurryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A741DC258F10084D198 /* Button_Project_FlurryUITests.m */,
+				7EFA9A761DC258F10084D198 /* Info.plist */,
+			);
+			path = "Button Project FlurryUITests";
+			sourceTree = "<group>";
+		};
+		7EFA9A861DC259FF0084D198 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EFA9A931DC25D0C0084D198 /* iAd.framework */,
+				7EFA9A911DC25CDE0084D198 /* AdSupport.framework */,
+				7EFA9A8F1DC25B160084D198 /* CFNetwork.framework */,
+				7EFA9A8D1DC25A490084D198 /* libFlurry_7.8.0.a */,
+				7EFA9A8B1DC25A270084D198 /* libz.1.tbd */,
+				7EFA9A891DC25A120084D198 /* Security.framework */,
+				7EFA9A871DC25A000084D198 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7EFA9A4B1DC258F00084D198 /* Button Project Flurry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFA9A791DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project Flurry" */;
+			buildPhases = (
+				7EFA9A481DC258F00084D198 /* Sources */,
+				7EFA9A491DC258F00084D198 /* Frameworks */,
+				7EFA9A4A1DC258F00084D198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Button Project Flurry";
+			productName = "Button Project Flurry";
+			productReference = 7EFA9A4C1DC258F00084D198 /* Button Project Flurry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7EFA9A641DC258F10084D198 /* Button Project FlurryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFA9A7C1DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project FlurryTests" */;
+			buildPhases = (
+				7EFA9A611DC258F10084D198 /* Sources */,
+				7EFA9A621DC258F10084D198 /* Frameworks */,
+				7EFA9A631DC258F10084D198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFA9A671DC258F10084D198 /* PBXTargetDependency */,
+			);
+			name = "Button Project FlurryTests";
+			productName = "Button Project FlurryTests";
+			productReference = 7EFA9A651DC258F10084D198 /* Button Project FlurryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7EFA9A6F1DC258F10084D198 /* Button Project FlurryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EFA9A7F1DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project FlurryUITests" */;
+			buildPhases = (
+				7EFA9A6C1DC258F10084D198 /* Sources */,
+				7EFA9A6D1DC258F10084D198 /* Frameworks */,
+				7EFA9A6E1DC258F10084D198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EFA9A721DC258F10084D198 /* PBXTargetDependency */,
+			);
+			name = "Button Project FlurryUITests";
+			productName = "Button Project FlurryUITests";
+			productReference = 7EFA9A701DC258F10084D198 /* Button Project FlurryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EFA9A441DC258F00084D198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = JAYANTH;
+				TargetAttributes = {
+					7EFA9A4B1DC258F00084D198 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					7EFA9A641DC258F10084D198 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EFA9A4B1DC258F00084D198;
+					};
+					7EFA9A6F1DC258F10084D198 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EFA9A4B1DC258F00084D198;
+					};
+				};
+			};
+			buildConfigurationList = 7EFA9A471DC258F00084D198 /* Build configuration list for PBXProject "Button Project Flurry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EFA9A431DC258F00084D198;
+			productRefGroup = 7EFA9A4D1DC258F00084D198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EFA9A4B1DC258F00084D198 /* Button Project Flurry */,
+				7EFA9A641DC258F10084D198 /* Button Project FlurryTests */,
+				7EFA9A6F1DC258F10084D198 /* Button Project FlurryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EFA9A4A1DC258F00084D198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFA9A5F1DC258F00084D198 /* LaunchScreen.storyboard in Resources */,
+				7EFA9A5C1DC258F00084D198 /* Assets.xcassets in Resources */,
+				7EFA9A851DC259F00084D198 /* FlurryAds in Resources */,
+				7EFA9A841DC259F00084D198 /* Flurry in Resources */,
+				7EFA9A5A1DC258F00084D198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A631DC258F10084D198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A6E1DC258F10084D198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EFA9A481DC258F00084D198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFA9A571DC258F00084D198 /* ViewController.m in Sources */,
+				7EFA9A541DC258F00084D198 /* AppDelegate.m in Sources */,
+				7EFA9A511DC258F00084D198 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A611DC258F10084D198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFA9A6A1DC258F10084D198 /* Button_Project_FlurryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFA9A6C1DC258F10084D198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EFA9A751DC258F10084D198 /* Button_Project_FlurryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EFA9A671DC258F10084D198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFA9A4B1DC258F00084D198 /* Button Project Flurry */;
+			targetProxy = 7EFA9A661DC258F10084D198 /* PBXContainerItemProxy */;
+		};
+		7EFA9A721DC258F10084D198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EFA9A4B1DC258F00084D198 /* Button Project Flurry */;
+			targetProxy = 7EFA9A711DC258F10084D198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EFA9A581DC258F00084D198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFA9A591DC258F00084D198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EFA9A5D1DC258F00084D198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EFA9A5E1DC258F00084D198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7EFA9A771DC258F10084D198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7EFA9A781DC258F10084D198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EFA9A7A1DC258F10084D198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Button Project Flurry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-Flurry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7EFA9A7B1DC258F10084D198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Button Project Flurry/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-Flurry";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7EFA9A7D1DC258F10084D198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button Project FlurryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-FlurryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button Project Flurry.app/Button Project Flurry";
+			};
+			name = Debug;
+		};
+		7EFA9A7E1DC258F10084D198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button Project FlurryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-FlurryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button Project Flurry.app/Button Project Flurry";
+			};
+			name = Release;
+		};
+		7EFA9A801DC258F10084D198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Button Project FlurryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-FlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Button Project Flurry";
+			};
+			name = Debug;
+		};
+		7EFA9A811DC258F10084D198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Button Project FlurryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jayanth.interview.Button-Project-FlurryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Button Project Flurry";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EFA9A471DC258F00084D198 /* Build configuration list for PBXProject "Button Project Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFA9A771DC258F10084D198 /* Debug */,
+				7EFA9A781DC258F10084D198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EFA9A791DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFA9A7A1DC258F10084D198 /* Debug */,
+				7EFA9A7B1DC258F10084D198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EFA9A7C1DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project FlurryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFA9A7D1DC258F10084D198 /* Debug */,
+				7EFA9A7E1DC258F10084D198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EFA9A7F1DC258F10084D198 /* Build configuration list for PBXNativeTarget "Button Project FlurryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EFA9A801DC258F10084D198 /* Debug */,
+				7EFA9A811DC258F10084D198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EFA9A441DC258F00084D198 /* Project object */;
+}
